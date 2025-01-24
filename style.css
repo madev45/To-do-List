@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jersey 15", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #fff;
+}
+
+body {
+  width: 100vw;
+}
+/* Style of Navbar*/
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav {
+  height: 50px;
+  box-shadow: 0px 4px 10px 3px gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px;
+}
+
+nav h1 {
+  font-size: 40px;
+}
+
+nav i {
+  font-size: 30px;
+  margin-right: 8px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 170px;
+}
+/* Style of div */
+.new-div{
+  border: 2px solid transparent;
+  border-radius: 24px;
+  margin: 20px 10px; 
+  padding: 8px; 
+  overflow: hidden;
+  box-shadow: 4px 4px 4px 2px gray;
+}
+.new-div>p{
+  padding: 5px; 
+  font-size: 25px; 
+  border: 2px solid transparent;
+  border-radius: 14px;  
+  box-shadow: inset 2px 2px 2px 2px gray;
+}
+p>.span{
+  color: green;
+  font-size: 25px;
+  background-color: transparent;
+}
+.new-div>.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px; 
+}
+.buttons button{
+  width: 150px; 
+  padding: 2px;
+  margin: 10px 80px; 
+  font-size: 35px;
+  border: none; 
+  border-radius: 20px;  
+  box-shadow: 4px 4px 4px 2px gray;
+  font-weight: 400;
+}
+
+.buttons>.remove{
+  background-color:  #DC143C;
+  color: #fff;
+} 
+#user-input{
+  height: 40px; 
+  width: 270px;
+  font-size: 20px;
+  padding: 4px; 
+  background-color: #fff;
+  opacity: 0.8;
+  border: transparent;
+  border-radius: 5px;
+  box-shadow:  0px 0px 4px 4px gray;
+}
+#user-input:focus{
+  outline-color: black;
+  caret-color: black;
+} 
+.form{
+  height: 100px;
+  width: 100vw;
+  position: fixed;
+  bottom: 100px;
+background-color: transparent;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.form .save{
+  height: 40px;
+  width: 40px;
+  margin: 8px;
+  padding: 4px;
+  border: transparent;
+  border-radius: 5px;
+  box-shadow:  0px 0px 8px 2px gray;
+  position: relative;
+  bottom: 1.5px;
+}
