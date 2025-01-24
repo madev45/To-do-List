@@ -6,6 +6,7 @@
   font-weight: 400;
   font-style: normal;
   background-color: #fff;
+  transition: all 0.3s ease-in-out;
 }
 
 body {
@@ -71,18 +72,29 @@ p>.span{
 .buttons button{
   width: 150px; 
   padding: 2px;
-  margin: 10px 80px; 
+  margin-top: 10px ; 
   font-size: 35px;
   border: none; 
   border-radius: 20px;  
   box-shadow: 4px 4px 4px 2px gray;
   font-weight: 400;
 }
+.buttons>.complete{
+  background-color:  #228b22;
+  color: #fff;
+} 
 
 .buttons>.remove{
   background-color:  #DC143C;
   color: #fff;
 } 
+
+.span{
+  position: absolute;
+  right: 50px;
+  color: green;
+}
+
 #user-input{
   height: 40px; 
   width: 270px;
